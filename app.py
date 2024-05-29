@@ -159,13 +159,6 @@ if st.button('저장된 조합 랜덤 표시'):
     else:
         st.warning('저장된 조합이 없습니다.')
 
-# 각 요소 복사 기능
-if st.session_state.random_adverb:
-    st.text_area('부사 복사', st.session_state.random_adverb)
-if st.session_state.random_adjective:
-    st.text_area('형용사 복사', st.session_state.random_adjective)
-if st.session_state.random_noun:
-    st.text_area('명사 복사', st.session_state.random_noun)
 
 # JSON 파일 내용 출력
 if st.button('JSON 파일 내용 보기'):
